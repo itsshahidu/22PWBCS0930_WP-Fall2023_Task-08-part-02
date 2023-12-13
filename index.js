@@ -36,7 +36,7 @@ app.use(loggerMiddleware);
 // this is the main Route 
 
 app.get("/",(req,res)=>{
-  res.send("Please put (/ecommerce/products) or (/ecommerce/products/id)[id may be 1, 2, 3...] in front of the above link [localhost:3000] in the browser. Note: For password checking, that either it is strong or weak, we have to use Postman because its POST method." )
+  res.send("Please put (/ecommerce/products) or (/ecommerce/products/id)[id may be 1, 2, 3...] in front of the above link [localhost:3000] in the browser. Note: For password checking, that either it is strong or weak, we have to use Postman because its POST API." )
 })
 
 // starting the server here
